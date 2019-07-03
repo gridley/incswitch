@@ -15,3 +15,5 @@ Lastly, set up a keyboard shortcut for switching between source and header files
 # TODO
 Cache location of source/header pair to avoid need to search each time.
 Come back to same line number when switching.
+
+Aside from these things, it works fine!
