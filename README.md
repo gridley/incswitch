@@ -1,12 +1,12 @@
 # incswitch
 This is great for C++ projects where headers and source files are in different directories.
 
-Switch between header and source files quickly in neovim. Directories are searched recursively.
+This extension switches between header and source files quickly in neovim. Directories get searched recursively.
 For example, if a file called calcmeaningoflife.C and calcmeaningoflife.h are the in same directory, a keybinding
 is provided to automatically switch between files. Also, if one of the files were nested a few directories below
 the current working directory, this extension would switch to that file as well since it searches directories
 recursively. After finding the location of the corresponding header/source pair once, the location is cached
-to slightly improve the speed of switching files after the first switch.
+to slightly improve the speed of switching files after the first search.
 
 Currently, the program treats source files as anything with one of the following extensions
 `sources = {'.c', '.cpp', '.cxx', '.C'} `
