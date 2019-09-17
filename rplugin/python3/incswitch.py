@@ -15,7 +15,7 @@ class IncSwitch:
 
         # Feel free to add more stuff here:
         headers = {'.h', '.hpp', '.H', '.hh', '.hxx'}
-        sources = {'.c', '.cpp', '.cxx', '.C'}
+        sources = {'.c', '.cpp', '.cxx', '.C', '.cu'}
 
         # Get current file name
         thisfile = self.nvim.command_output('echo @%').strip()
