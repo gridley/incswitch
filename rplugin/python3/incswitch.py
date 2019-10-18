@@ -39,6 +39,12 @@ class IncSwitch:
             else:
                 raise Exception('No recognized header/source correspondence on this file.')
 
+            # start search two directories up from current location. This is
+            # roughly applicable to most code projects where an include directory
+            # is unlikely to be more than two levels away from a src directory.
+            cwd = os.path.join(cwd, '..')
+            cwd = os.path.join(cwd, '..')
+
             # traverse current directory and below to find header or source file
             found = False
             for root, dirs, files in os.walk(cwd):
