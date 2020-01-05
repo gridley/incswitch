@@ -14,7 +14,7 @@ class IncSwitch:
     def incswitch(self):
 
         # Feel free to add more stuff here:
-        headers = {'.h', '.hpp', '.H', '.hh', '.hxx'}
+        headers = {'.h', '.hpp', '.H', '.hh', '.hxx', '.cuh'}
         sources = {'.c', '.cpp', '.cxx', '.C', '.cu'}
 
         # Get current file name
