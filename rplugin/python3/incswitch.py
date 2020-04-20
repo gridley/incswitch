@@ -6,7 +6,7 @@ class IncSwitch:
 
     # Feel free to add more stuff here:
     headers = {'.h', '.hpp', '.H', '.hh', '.hxx', '.cuh'}
-    sources = {'.c', '.cpp', '.cxx', '.C', '.cu'}
+    sources = {'.cc', '.c', '.cpp', '.cxx', '.C', '.cu'}
 
     def __init__(self, nvim):
         self.nvim = nvim
